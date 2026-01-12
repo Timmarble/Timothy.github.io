@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: yellowgreen;
+        }
+        h2 {
+            text-align: center;
+            padding: 30px 0 10px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px 30px 40px;
+        }
+        .product {
+            background: white;
+            width: 240px;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .product h3 {
+            margin: 12px 0 6px;
+        }
+        .product ul {
+            text-align: left;
+            padding-left: 18px;
+            margin: 10px 0;
+        }
+        .price {
+            font-weight: bold;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Our Products</h2>
+
+<div class="products">
+
+    <div class="product">
+        <img src="laptop.jpg" alt="Laptop">
+        <h3>Laptops</h3>
+        <ul>
+            <li>Core i5 / Ryzen 5</li>
+            <li>8GB RAM</li>
+            <li>512GB SSD</li>
+            <li>Long battery life</li>
+        </ul>
+        <p class="price">From Ksh 45,000</p>
+    </div>
+
+    <div class="product">
+        <img src="phone.jpg" alt="Phone">
+        <h3>Phones</h3>
+        <ul>
+            <li>Android and iOS</li>
+            <li>Clear cameras</li>
+            <li>Fast charging</li>
+            <li>Large storage</li>
+        </ul>
+        <p class="price">From Ksh 12,000</p>
+    </div>
+
+    <div class="product">
+        <img src="clothes.jpg" alt="Clothes">
+        <h3>Clothes</h3>
+        <ul>
+            <li>Casual and official wear</li>
+            <li>Strong fabric</li>
+            <li>Different sizes</li>
+            <li>Modern styles</li>
+        </ul>
+        <p class="price">From Ksh 800</p>
+    </div>
+
+    <div class="product">
+        <img src="shoes.jpg" alt="Shoes">
+        <h3>Shoes</h3>
+        <ul>
+            <li>Men and women</li>
+            <li>Comfortable fit</li>
+            <li>Durable soles</li>
+            <li>Trendy designs</li>
+        </ul>
+        <p class="price">From Ksh 1,500</p>
+    </div>
+
+</div>
+
+</body>
+</html>

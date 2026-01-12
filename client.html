@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Form</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: yellowgreen;
+        }
+        h2 {
+            text-align: center;
+            padding: 30px 0 10px;
+        }
+        .order {
+            max-width: 650px;
+            margin: 20px auto 50px;
+            background: white;
+            padding: 25px;
+            border-radius: 6px;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 12px;
+            width: 100%;
+            border: none;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Place Your Order</h2>
+
+<div class="order">
+    <form>
+
+        <label>Product Type</label>
+        <select>
+            <option>Select product</option>
+            <option>Laptop</option>
+            <option>Phone</option>
+            <option>Clothes</option>
+            <option>Shoes</option>
+        </select>
+
+        <label>Product Details</label>
+        <textarea rows="3" placeholder="Color, size, storage, model, or any other details"></textarea>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Your full name">
+
+        <label>National ID</label>
+        <input type="text" placeholder="ID number">
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Contact number">
+
+        <label>Email Address</label>
+        <input type="email" placeholder="Email address">
+
+        <label>Delivery Address</label>
+        <input type="text" placeholder="Street or area">
+
+        <label>Apartment / House Number</label>
+        <input type="text" placeholder="Apartment or house number">
+
+        <label>Additional Notes</label>
+        <textarea rows="3" placeholder="Any delivery instructions"></textarea>
+
+        <button type="submit">Submit Order</button>
+
+    </form>
+</div>
+
+</body>
+</html>
